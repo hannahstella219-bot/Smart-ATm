@@ -1,0 +1,36 @@
+{
+  "testuser": {
+    "username": "testuser",
+    "pin": "1234",
+    "balance": 50.0,
+    "transactions": [
+      {
+        "timestamp": "2026-02-21T20:11:03.686900",
+        "transaction_type": "DEPOSIT",
+        "amount": 100.0,
+        "balance_after": 100.0
+      },
+      {
+        "timestamp": "2026-02-21T20:11:03.687184",
+        "transaction_type": "WITHDRAWAL",
+        "amount": 50.0,
+        "balance_after": 50.0
+      }
+    ],
+    "created_at": "2026-02-21T20:11:03.686523"
+  },
+  "cyberflex": {
+    "username": "cyberflex",
+    "pin": "1234",
+    "balance": 9.9e+20,
+    "transactions": [
+      {
+        "timestamp": "2026-02-22T12:52:13.487066",
+        "transaction_type": "DEPOSIT",
+        "amount": 9.9e+20,
+        "balance_after": 9.9e+20
+      }
+    ],
+    "created_at": "2026-02-22T12:47:56.436415"
+  }
+}
