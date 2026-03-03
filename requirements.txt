@@ -1,0 +1,22 @@
+# SmartATM Requirements
+# 
+# No external dependencies required - uses only Python standard library
+# 
+# Python 3.10+ with standard library modules:
+# - json (built-in)
+# - dataclasses (built-in, Python 3.7+)
+# - threading (built-in)
+# - tkinter (built-in, may need separate installation on some systems)
+# - pathlib (built-in)
+# - typing (built-in)
+# - argparse (built-in)
+# - datetime (built-in)
+# 
+# Optional development tools (for future enhancements):
+pytest==7.4.0          # Unit testing
+black==23.9.0          # Code formatting
+flake8==6.0.0          # Linting
+mypy==1.5.0            # Type checking
+bcrypt==4.0.1          # PIN hashing (for production)
+flask==2.3.3           # REST API (for web interface)
+sqlalchemy==2.0.21     # Database ORM (if replacing JSON)
